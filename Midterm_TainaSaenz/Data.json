@@ -1,0 +1,62 @@
+[
+    {
+        "id": "aa32jj887hhg55",
+        "name": "Hawaii",
+        "description": "Hawaii is a beautiful, tropical island. It's rich in culture, scenery, and its tropical climate.",
+        "imageName": "hawaii"
+    },
+    {
+        "id": "bb32jj887hhg77",
+        "name": "Puerto Rico",
+        "description": "Puerto Rico is a small, yet very special island in the Carribean. It blends Spanish and African cultures, making it a strong island and beautiful to tourists around the world.",
+        "imageName": "puertorico"
+    },
+    {
+        "id": "cc32jj887hhg66",
+        "name": "South Korea",
+        "description": "South Korea, a country that's known for blending ancient traditions with its fast-paced technological advancements. Also well-known for its most famous genre, K-Pop (Korean Pop), many enjoy seeing the culture and landscape.",
+        "imageName": "southkorea"
+    },
+    {
+        "id": "dd32jj887hhg88",
+        "name": "Japan",
+        "description": "Another country known for including its ancient traditions with cutting-edge tech, Japan is well-known for its amazing food, beautiful scenery, and making itself known throughout the world. This can be seen in tech, culture, video games, anime, and more.",
+        "imageName": "japan"
+    },
+    {
+        "id": "ee32jj887hhg99",
+        "name": "Canada",
+        "description": "Canada's landscapes are breathtakingly beautiful. From the majestic Niagra Falls to the Canadian Rockies, many are stunned with the country's welcoming beauty.",
+        "imageName": "canada"
+    },
+    {
+        "id": "ff32jj887hhg99",
+        "name": "Italy",
+        "description": "Italy is known for its amazing foods, and even more amazing views! Can you imagine having a beautiful dinner with a breathtaking view of the Italian cities, then be able to see art pieces from the Renaissance era?",
+        "imageName": "italy"
+    },
+    {
+        "id": "gg32jj887hhg99",
+        "name": "Germany",
+        "description": "Germany, a country in Europe, is well-known for combining its rich history with modern innovations. A favorite sight amongst tourists is the Cologne Cathedral, and who could blame them? It's magnificent!",
+        "imageName": "germany"
+    },
+    {
+        "id": "hh32jj887hhg99",
+        "name": "Thailand",
+        "description": "Also known as the Land of Smiles for the kindess of its natives, Thailand offers beautiful energy and amazing cuisines.",
+        "imageName": "thailand"
+    },
+    {
+        "id": "ii32jj887hhg99",
+        "name": "Scotland",
+        "description": "Scotland introduces great views no other could prepare for. Its castles and mountains are some of the best you could see.",
+        "imageName": "scotland"
+    },
+    {
+        "id": "jj32jj887hhg99",
+        "name": "Iceland",
+        "description": "Iceland offers landscapes that are otherwordly. From glaciers to the Northern Lights, the Icelandic nation is like no other.",
+        "imageName": "iceland"
+    }
+]
