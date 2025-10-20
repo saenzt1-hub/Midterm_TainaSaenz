@@ -4,29 +4,33 @@
 
 import SwiftUI
 
+// ContentView: holds content for destination view
 struct ContentView: View {
     
     let destination = Bundle.main.decode([Subject].self, from: "Data.json")
     var body: some View {
         NavigationView {
             List {
-                
+                // Navigation Link with views for the list of destinations I'd like to travel to
                 ForEach(destination) { destination in
                     NavigationLink(destination: DetailView(destination: destination)) {
                         DestinationRow(destination: destination)
                     }
                 }
             }
+            // Title of app/main navigation
             .navigationTitle("Where I'd Like to Travel")
         }
     }
 }
 
+// DestinationRow, which includes the name and the picture for each destination when you first see the app
 struct DestinationRow: View {
     let destination: Subject
     
     var body: some View {
         HStack {
+            // Image
             Image(destination.imageName)
                 .resizable()
                 .scaledToFill()
@@ -34,6 +38,7 @@ struct DestinationRow: View {
                 .clipped()
                 .cornerRadius(8)
             
+            // Name of destination
             Text(destination.name)
                 .font(.headline)
                 .foregroundColor(.blue)
@@ -43,10 +48,12 @@ struct DestinationRow: View {
     }
 }
 
+// Details for each destination, the description, name, and image
 struct DetailView: View {
     let destination: Subject
     
     var body: some View {
+        // Allows scrolling in app
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
                 Text("DESTINATION DETAILS")
@@ -55,6 +62,7 @@ struct DetailView: View {
                     .padding(.horizontal)
                     .padding(.top)
                 
+                // Image of destination
                 Image(destination.imageName)
                     .resizable()
                     .scaledToFill()
@@ -63,17 +71,21 @@ struct DetailView: View {
                     .cornerRadius(12)
                     .padding(.horizontal)
                 
+                // Destination name
                 Text(destination.name)
                     .font(.title)
                     .fontWeight(.bold)
                     .padding(.horizontal)
                 
+                
+                // Description of destination
                 Text(destination.description)
                     .font(.body)
                     .padding(.horizontal)
                     .padding(.bottom)
             }
         }
+        // Navigation bar title
         .navigationBarTitleDisplayMode(.inline)
     }
 }
