@@ -7,12 +7,12 @@ import SwiftUI
 // ContentView: holds content for destination view
 struct ContentView: View {
     
-    let destination = Bundle.main.decode([Subject].self, from: "Data.json")
+    let destinations = Bundle.main.decode([Subject].self, from: "Data.json")
     var body: some View {
         NavigationView {
             List {
                 // Navigation Link with views for the list of destinations I'd like to travel to
-                ForEach(destination) { destination in
+                ForEach(destinations) { destination in
                     NavigationLink(destination: DetailView(destination: destination)) {
                         DestinationRow(destination: destination)
                     }

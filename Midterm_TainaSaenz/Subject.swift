@@ -1,9 +1,6 @@
-//
-//  Dog.swift
-//  DogBreeds
-//
-//  Created by Pacheco, Hellen on 10/9/21.
-//
+// Midterm Project
+// Taina Saenz
+// October 21, 2025
 
 import Foundation
 
