@@ -10,22 +10,9 @@
 		9FD2F3652EA00935008E128C /* Midterm_TainaSaenz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Midterm_TainaSaenz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		9FD2F37D2EA013D2008E128C /* Exceptions for "Midterm_TainaSaenz" folder in "Compile Sources" phase from "Midterm_TainaSaenz" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 9FD2F3612EA00935008E128C /* Sources */;
-			membershipExceptions = (
-				Data.json,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9FD2F3672EA00935008E128C /* Midterm_TainaSaenz */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				9FD2F37D2EA013D2008E128C /* Exceptions for "Midterm_TainaSaenz" folder in "Compile Sources" phase from "Midterm_TainaSaenz" target */,
-			);
 			path = Midterm_TainaSaenz;
 			sourceTree = "<group>";
 		};
