@@ -19,7 +19,7 @@ struct ContentView: View {
                 }
             }
             // Title of app/main navigation
-            .navigationTitle("Where I'd Like to Travel")
+            .navigationTitle("Taina's Travels")
         }
     }
 }
