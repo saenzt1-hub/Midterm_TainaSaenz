@@ -2,7 +2,7 @@
 // Taina Saenz
 // October 21, 2025
 
-import Foundation
+import SwiftUI
 
 struct Subject : Codable, Identifiable {
     var id: String

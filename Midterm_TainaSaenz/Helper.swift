@@ -2,7 +2,7 @@
 // Taina Saenz
 // October 21, 2025
 
-import Foundation
+import UIKit
 
 extension Bundle {
     func decode<T: Decodable>(_ type: T.Type, from file: String) -> T {
